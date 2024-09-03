@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Supermarket Price Comparison</h1>
+    </header>
+    
+    <main>
+        <div class="search-container">
+            <input type="text" id="productSearch" placeholder="Search for a product...">
+            <button onclick="comparePrices()">Compare Prices</button>
+        </div>
+
+        <div id="resultsContainer" class="results-container">
+            <!-- Results will be injected here by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Price Comparison</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
